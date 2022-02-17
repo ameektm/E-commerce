@@ -1,0 +1,15 @@
+.Term_condition{
+    background-color: white;
+    margin: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(77, 77, 77);
+    padding: 20px;
+    background-color:rgb(253, 253, 253);
+    margin: 20px;
+}
+.Term_condition-top-heading{
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
+}

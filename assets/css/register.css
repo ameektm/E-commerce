@@ -1,0 +1,52 @@
+/* .register-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.register{
+    border-radius: 20px;
+    background: rgb(172, 231, 212);
+}
+.register .register-left{
+    padding: 40px 30px;
+}
+.register .register-right{
+    position: relative;
+}
+.register .register-right .close{
+    position: absolute ;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: brown;
+    border: 1px solid black;
+    padding: 0px 8px;
+    border-radius: 50%;
+    transition: 2s;
+}
+.register .register-right .close:hover{
+    color: black;
+    background-color: white;
+}
+.register .register-right .right-image{
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.register .register-right .right-image img{
+    height: 350px;
+}
+.register .register-left .link{
+    text-decoration: none;
+}
+.register .register-left .form-control{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+
+} */

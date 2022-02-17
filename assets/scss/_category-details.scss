@@ -1,0 +1,87 @@
+.main-category{
+    background-color: white;
+    margin: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(77, 77, 77);
+    padding: 20px;
+    .category-wrapper{
+        padding: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0 0 17px 0px rgb(161, 206, 161);
+        border: 1px solid #e3e3e3;
+        .accordion{
+            margin: 0 !important;
+            .accordion-button{
+                color: black;
+            }
+            .accordion-body{
+                ul{
+                    list-style: none;
+                    padding-left: 0;
+                    li{
+                        padding: 5px;
+                        a{
+                            text-decoration: none;
+                            color: #000;
+                        }
+                        &:hover{
+                            background-color: rgb(212, 212, 212);
+                            color: black;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .filter-wrapper{
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 17px 0px rgb(161, 206, 161);
+        border: 1px solid #e3e3e3;
+    }
+    .dropdown-filter{
+        list-style: none;
+        padding: 5px 0;
+        li{
+            padding: 2px 0;
+        }
+    }
+    .list-wrap{
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    height: 250px;
+                    border-radius: 20px;
+                }
+            }
+        }
+        .main-list{
+            margin: 10px 0;
+            padding: 10px;
+            background-color: rgb(243, 243, 243);
+            border-radius: 20px;
+            ul{
+                list-style: none;
+                li{
+                    margin: 0 5px;
+                }
+            }
+            .bottom-list{
+                .card{
+                    border: 1px solid black;
+                    &:hover{
+                        transform: scale(1.03);
+                        transition: 500ms;
+                        box-shadow: 0 0 17px 0px $primaryColor;
+                        border: 1px solid #e3e3e3;
+                        cursor: pointer;
+                    }
+                    .card-img-top{
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+}

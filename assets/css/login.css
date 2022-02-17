@@ -1,0 +1,83 @@
+/* .login-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login{
+    border-radius: 20px;
+    background: rgb(172, 231, 212);
+}
+
+.login-left h3{
+    color: #1B5DDE;
+}
+
+.login form input{
+    border: none;  
+    background: none;
+    border-radius: none !important;
+    border-bottom: 1px solid black;
+    
+}
+.login-right{
+    position: relative;
+    background: url('../images/login.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.login form button{
+    border-radius: 20px;
+    margin: 5px 0;
+    padding: 5px 0;
+    
+}
+
+#forgot-password{
+    text-decoration: none;
+    color: black;
+}
+#forgot-password:hover{
+    color: #1B5DDE;
+}
+.no-underline{
+    text-decoration: none;
+    color: black;
+    
+
+} */
+
+/* Media query */
+/* @media screen and (min-width:475px){
+
+
+    
+} */
+
+
+/* .login-right .close{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: red !important;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: brown;
+    border: 1px solid black;
+    padding: 0px 8px;
+    border-radius: 50%;
+    transition: 1s;
+
+}
+.login-right .close:hover{
+    color: black;
+    background-color: white;
+}
+.star{
+    color: red;
+}
+ */

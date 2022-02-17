@@ -1,0 +1,54 @@
+.forgot-main{
+    .forgot-wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        .forgot{
+            border-radius: 20px;
+            background: rgb(172, 231, 212);
+            .forgot-left{
+                .back-login{
+                    text-decoration: none;
+                    .form-control{
+                        background: none;
+                        border: none;
+                        border-bottom: 1px solid black;
+                    }
+                }
+
+            }
+            .forgot-right{
+                position: relative;
+                .close-btn{
+                    position: absolute;
+                    top: 10px;
+                    right: 30px;
+                    text-decoration: none;
+                    font-size: 25px;
+                    color: red !important;
+                    cursor: pointer;
+                    font-weight: 500;
+                    background-color: brown;
+                    border: 1px solid black;
+                    padding: 0px 8px;
+                    border-radius: 50%;
+                    transition: 1s;
+                    &:hover{
+                        color: black;
+                        background-color: white;
+                    }
+                }
+                .forgot-img{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    height: 220px;
+                }
+
+            }
+
+        }
+    }
+}
